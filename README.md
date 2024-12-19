@@ -27,4 +27,16 @@ export default defineConfig({
 })
 
 ```
+## Note
 
+Please disable typescript `experimentalDecorators` and `emitDecoratorMetadata`.
+``` json
+// tsconfig.json
+{
+ "compilerOptions":{
+    "experimentalDecorators": false,                 
+    "emitDecoratorMetadata": false, 
+ }
+ ...
+}
+```
