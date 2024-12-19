@@ -1,0 +1,52 @@
+{
+  "name": "vite-plugin-proposal-decorators",
+  "description": "A Vite plugin for @babel/plugin-proposal-decorators",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "type": "module",
+  "license": "MIT",
+  "author": {
+    "name": "caixue",
+    "email": "caixue233@gmail.com"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vite --open"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.25.9"
+  },
+  "devDependencies": {
+    "@types/babel__core": "^7.0.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "url": "https://github.com/cx690/vite-plugin-proposal-decorators"
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "keywords": [
+    "@babel/plugin-proposal-decorators",
+    "vite",
+    "vite-plugin",
+    "decorators",
+    "proposal-decorators"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "volta": {
+    "node": "20.18.1"
+  }
+}
