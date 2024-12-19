@@ -30,7 +30,7 @@ export default defineConfig({
 ## Note
 
 Please disable typescript `experimentalDecorators` and `emitDecoratorMetadata`.
-``` json
+``` jsonc
 // tsconfig.json
 {
  "compilerOptions":{
